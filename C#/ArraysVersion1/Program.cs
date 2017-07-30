@@ -21,6 +21,10 @@ namespace ArraysVersion1
 
             int[] plainArray = new int[9];
 
+            plainArray[0] = 1;
+            plainArray[1] = 3;
+            Console.WriteLine(plainArray[0]);
+
         }
     }
 }
