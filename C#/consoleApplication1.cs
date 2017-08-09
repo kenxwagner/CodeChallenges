@@ -12,7 +12,7 @@ namespace ConsoleApplication1
 		{
 		
 			Console.WriteLine("Get to work");
-			Console.Write("What do you want to be? ");
+			Console.Write("What do you want to be? Keep going! ");
 			string goal = Console.ReadLine();
 			Console.WriteLine("Keep practicing being a " + goal + ", until you are the best " + goal " there is!");
 		}
