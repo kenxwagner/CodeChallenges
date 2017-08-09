@@ -9,13 +9,13 @@ namespace MakeASearchArray
     {
         static void Main(string[] args)
         {
-            string[] strname = { "Monu", "Mohan", "satendra", "jeetendra", "Rohatash" };
+            string[] strname = { "Miller", "Moana", "Tahiti", "Coconut", "Shiny" };
             string match = Array.Find(strname, ContainsA);
             Console.WriteLine("Search string is:" + match);
         }
         static bool ContainsA(string findname)
         {
-            return findname.Contains("h");
+            return findname.Contains("a");
         }
     }
 }
