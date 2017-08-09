@@ -16,5 +16,5 @@ catch(Exception e)
 	Console.WriteLine(e.ToString());
 	}
 };												
-	SqlCommand myCommand = new SqlCommand("Select * from table WHERE table = 'chimney'", myConnection);
+	SqlCommand myCommand = new SqlCommand("Select * from table WHERE table = 'userMaster'", myConnection);
 	
